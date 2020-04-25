@@ -1,7 +1,7 @@
 @import "../font/MYRIAD_REGULAR.woff";
 /*@import "../css/style.css";*/
 body{
-    font-family: 'Myriad Pro Regular';
+    font-family: 'Myriad Pro Regular',sans-serif;
 }
 *{
     margin: 0;
@@ -355,6 +355,8 @@ height: 430px;
 .content-section2-right img{
     width: 90%;
     height: 200px;
+    box-shadow: -2px 7x 8px;
+}
 }
 /*end-section2*/
 /*content-section3*/
@@ -777,7 +779,7 @@ height: 430px;
     background-color: transparent;
     text-align: center;
     position: relative;
-    left:43%;
+    left:44%;
     padding: 10px 30px;
     margin-top: 20px;
 }
@@ -822,6 +824,7 @@ height: 430px;
 }
 .footer-top-right div{
     padding: 15px 0 0 0;
+    color: #c2c2c2;
 }
 .footer-top-right .line-footer{
     border-bottom: 1px solid #d6d6d6;
